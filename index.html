@@ -1,43 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css/style.css">
+    <title>Meu site</title>
 </head>
 
 <body>
-    <digv id="container">
-        <header>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Sobre mim</li>
-                    <li>Portifolio</li>
-                    <li>Curiculum</li>
+    <section id="container">
+        <header class="box_header">
+            <nav class="box_navigation">
+                <ul class="box_list">
+                    <li><a class="list_links" href="">Home</a></li>
+                    <li><a class="list_links" href="">Sobre mim</a></li>
+                    <li><a class="list_links" href="">Portifolio</a></li>
+                    <li><a class="list_links" href="">Curiculum</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div class="blue">
-            <img src="/img/LRM_EXPORT_128694181040801_20190717_000721582.jpeg">
-        </div>
-        <section>
-            <div class="home">
-                <h1>Ana Beatriz</h1>
-                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        <section class="box_home">
+            <div class="box_side">
+                <div class="box_image">
+                    <img class="image_profile" src="/img/perfil.jpeg" alt="Mulher negra de cabelos longos e sorridente">
+                </div>
+            </div>
+
+            <div class="box_texts">
+                <h1 class="text_title">Ana Beatriz</h1>
+                <p class="text_paragraph"> simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's
                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                     scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    leap into electronic typesetting, remaining essentially unchanged.</p>
             </div>
         </section>
-        <span>
-
-        </span>
-    </div>
+    </section>
 </body>
 
 </html>
