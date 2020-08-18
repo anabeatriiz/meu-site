@@ -5,37 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css/style.css">
+    <link rel="stylesheet" href="./main/style.css">
     <title>Meu site</title>
 </head>
 
 <body>
     <section id="container">
-        <header class="box_header">
+        <header class="box_header anime" data-anime="bottom">
             <nav class="box_navigation">
                 <ul class="box_list">
-                    <li><a class="list_links" href="">Home</a></li>
-                    <li><a class="list_links" href="">Sobre mim</a></li>
-                    <li><a class="list_links" href="">Portifolio</a></li>
-                    <li><a class="list_links" href="">Curiculum</a></li>
+                    <li><a class="list_links" href="#home">Home</a></li>
+                    <li><a class="list_links" href="#sobre_mim">Sobre mim</a></li>
+                    <li><a class="list_links" href="">Portifólio</a></li>
+                    <li><a class="list_links" href="">Curriculo</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section class="box_home">
+        <section class="box_home" id="home" >
             <div class="box_side">
                 <div class="box_image">
-                    <img class="image_profile" src="/img/perfil.jpeg" alt="Mulher negra de cabelos longos e sorridente">
+                    <img class="image_profile" src="./img/perfil.jpg" alt="Mulher negra de cabelos longos e sorridente">
                 </div>
             </div>
 
             <div class="box_texts">
                 <h1 class="text_title">Ana Beatriz</h1>
-                <p class="text_paragraph"> simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                <p class="text_subtitle"> simply dummy text of the printing and typesetting industry. Lorem Ipsum
                     has been the industry's
                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                     scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                     leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+        </section>
+
+        <section class="box_sobre" id="sobre_mim">
+            <div class="box_texts_sobre">
+                <h2 class="title_sobre">Sobre Mim</h2>
+                <p class="subtitle_sobre style_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero libero
+                    facilis, optio dicta sed
+                    voluptatum labore corporis a, odio nulla similique dolorum, ullam et minima. Illo ducimus ipsa quas
+                    quae!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae ad cumque minima
+                    exercitationem quasi fugit similique placeat, nam eveniet aperiam rerum quos, expedita autem dolor,
+                    quo ab odit quas dolorum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusamus distinctio eos magni
+                    aspernatur cumque eligendi autem perspiciatis ipsa veniam, dolores dicta mollitia alias aliquid
+                    nostrum quidem, eveniet incidunt fuga?
+                </p>
+                <h3 class="title_motivation">Minha motivação</h3>
+                <p class="paragraph_motivation style_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusantium suscipit, corrupti ad
+                    nam exercitationem nobis quod consectetur reprehenderit, facilis error fuga unde itaque dignissimos
+                    repudiandae, fugit dicta possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                    porro praesentium numquam, voluptates debitis quibusdam perferendis ab iure possimus quod, quos
+                    provident suscipit unde ullam adipisci animi explicabo. Quod, reiciendis.</p>
+            </div>
+            <div class="box_image_sobre">
+                <img class="image_sobre" src="./img/perfil2.jpg" alt="">
             </div>
         </section>
     </section>
